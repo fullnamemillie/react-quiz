@@ -1,0 +1,36 @@
+.block {
+  border-radius: 10px;
+  text-align: center;
+  width: 500px;
+  height: 300px;
+  padding: 10px;
+  background-color: aliceblue;
+}
+
+.title {
+  padding: 5px;
+  margin-bottom: 5px;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.list {
+  display: inline-block;
+}
+
+.item {
+  width: 170px;
+  padding: 5px;
+  margin-top: 10px;
+  list-style: none;
+  border: 2px solid gray;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.item:hover {
+    border: 2px solid aliceblue;
+    background-color: rgb(250, 130, 146);
+    color: black;
+    font-weight: 500;
+}
